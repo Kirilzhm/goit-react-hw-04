@@ -1,4 +1,10 @@
 
-.gallery-img-box{
-    width: 400px;
+.galleryImgBox{
+    width: 480px;
+    height: 267px;
+}
+
+.galleryImage{
+    width: 480px;
+    height: 267px;
 }

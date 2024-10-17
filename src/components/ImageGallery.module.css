@@ -1,9 +1,11 @@
 
 .gallery{
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.gallery-li{
-    width: 400px;
+.galleryLi{
+    width: 480px !important;
     width: 267px;
 }

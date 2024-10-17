@@ -1,10 +1,11 @@
-import styles from "./ImageCard.module.css"
-const ImageCard = ({ src, alt }) => {
-    return (
-        <div className="styles.gallery-img-box">
-            <img src={src} alt={alt} />
-        </div>
-    );
+import styles from "./ImageCard.module.css";
+
+const ImageCard = ({ src, alt, onClick }) => {
+  return (
+    <div className={styles.galleryImgBox} onClick={onClick}>
+      <img className={styles.galleryImage} src={src} alt={alt} />
+    </div>
+  );
 };
 
-export default ImageCard
+export default ImageCard;
